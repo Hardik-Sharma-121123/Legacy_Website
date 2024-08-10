@@ -66,6 +66,19 @@ section.event_heads {
     }
 }
 
+#footer-image {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+    position: relative;
+}
+
+.footer-img {
+    width: 85%; 
+    height: auto; 
+    max-width: 100%; 
+    aspect-ratio: 16 / 9; 
+}
 
 h3 {
     font-size: 100%;

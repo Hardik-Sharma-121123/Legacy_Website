@@ -1,0 +1,66 @@
+.contact_us_6 {
+  background-image: url('C:\Users\palak\OneDrive\Documents\GitHub\Legacy_Website\res\images\bg_img_real.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+}
+
+.contact_us_6 .form-box {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact_us_6 .form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_us_6 .input, .contact_us_6 .textinput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact_us_6 .submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, sans-serif; /* Use your preferred professional font */
+  font-size: 16px;
+}
+
+.contact_us_6 .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.contact_us_6 .map-part {
+  padding: 20px;
+}
+
+.contact_us_6 .map-contactus-head, .contact_us_6 .map-contactus-subhead {
+  margin-bottom: 10px;
+}
+
+.contact_us_6 .social-media-links {
+  display: flex;
+  gap: 10px;
+}
+
+.contact_us_6 .social-icon-link {
+  display: block;
+}
+
+.contact_us_6 .social-icon-link img {
+  transition: transform 0.3s ease;
+}
+
+.contact_us_6 .social-icon-link:hover img {
+  transform: scale(1.1);
+}
