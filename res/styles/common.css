@@ -143,6 +143,66 @@ body {
     font-size: 140%;
 }
 
+.social-container {
+    background-color: rgba(16, 0, 240, 0.164); /* Lowered alpha value for more transparency */
+    backdrop-filter: blur(4px); /* Apply blur to the background */
+    -webkit-backdrop-filter: blur(10px); /* Support for Safari */
+    padding: 10px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 11px); /* Full width of the parent container */
+    position: fixed; /* Fixed position to stay in view */
+    bottom: 0; /* Align to the bottom of the page */
+    left: 0; /* Align to the left edge */
+    right: 0; /* Align to the right edge */
+    margin: 0; /* Remove any margin */
+    gap: 15px; /* Space between buttons */
+    z-index: 9999; /* Ensure it stays above other content */
+    box-sizing: border-box; /* Include padding in the width/height */
+} 
+
+.social-container a {
+    margin: 0 10px; /* Adds horizontal space between the buttons */
+    padding: 5px 10px; /* Adjust the padding inside the buttons */
+    border-radius: 5px; /* Optional: rounded corners for the buttons */
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1rem; /* Adjust the font size as needed */
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.social-container a:hover {
+    transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+.register-button-container {
+    position: fixed; /* Fixes the button to a position relative to the viewport */
+    top: 20px; /* Adjust the top distance from the viewport */
+    right: 30px; /* Adjust the right distance from the viewport */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.register-now-button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #007BFF;
+    font-family: 'Arial', sans-serif;
+    font-size: 8px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.register-now-button:hover {
+    background-color: rgb(255, 255, 255); /* Light blue background on hover */
+    color: #6a0dad; /* Bluish purple text color */
+    border-color: rgb(255, 255, 255); /* Darker blue border on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
 /**
 #socials {
     background-image: url('../images/logos/overlay_social.png');
