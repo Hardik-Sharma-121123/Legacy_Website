@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(C:\Users\palak\OneDrive\Documents\GitHub\Legacy_Website\res\images\bg_img_real.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+  width: 80%; /* Adjusted to be slightly smaller */
+  height: 80vh; /* Adjusted to be slightly smaller */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(5, 5, 5, 0.2); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container {
+  width: 25%; /* Increased width */
+  margin-right: 1.5%; /* Space between form and map */
+  background-color: rgba(0, 0, 0, 0.137); /* Slightly more opaque */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.map-container {
+  width: 73%; /* Increased width */
+  background-color: rgba(0, 0, 0, 0.144); /* Slightly more opaque */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
